@@ -28,7 +28,7 @@
     position: relative;
 }
 .bg> * + * {
-    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   p{
@@ -62,6 +62,20 @@ border-radius: 8px;
  padding:10px 20px;
  background-color: var(--cta);
 }
+.lottie{
+    position: absolute;
+    max-width: 80vw;
+    width: 800px;
+    right: 20vw;
+    left: 20vw;
+    top: 10vh;
+    bottom: 10vh;
+    pointer-events: none;
+}
+
+.hide{
+    display: none;
+}
 
 
 
@@ -74,4 +88,18 @@ body{
     background-position: top center;
     font-family: 'Inter', sans-serif;
 }
+
+@media screen and (max-width: 631px) {
+    
+
+    .maintitle {
+        color: var(--text-color);
+        font-size: 34px;
+        
+      }
+      .search{
+        padding: 12px 180px 12px 22px;
+        max-width: 268px;
+    }
+  }
 /*# sourceMappingURL=new.css.map */
