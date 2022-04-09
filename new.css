@@ -1,0 +1,77 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+:root{
+    --text-small-color:hsl(0, 0%, 77%);
+    --text-color:#FFFFFF;
+    --background-color:#3E83C8;
+    --cta:#E8D422;
+}
+.container{
+    max-width: 70vw;
+    text-align: center;
+}
+
+.score{
+    font-size: 29px;
+    text-transform: uppercase;
+    color: var(--cta);
+    font-weight: bolder;
+}
+
+.bg{
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.bg> * + * {
+    margin-top: 1em;
+  }
+
+  p{
+    color: var(--text-color);
+  }
+
+.maintitle {
+  color: var(--text-color);
+  font-size: 64px;
+  
+}
+.search{
+    padding: 12px 180px 12px 22px;
+    max-width: 468px;
+}
+.search::placeholder{
+color: var(--text-small-color);
+font-size: 16px;
+
+
+}
+.search:focus-within{
+outline: 3px solid var(--cta);
+}
+
+.cta{
+    color: var(--text-color);
+    text-align: center;
+border: none;
+border-radius: 8px;
+ padding:10px 20px;
+ background-color: var(--cta);
+}
+
+
+
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: var(--background-color);
+    background-image: url('./Resources/Layer2.svg');
+    background-position: top center;
+    font-family: 'Inter', sans-serif;
+}
+/*# sourceMappingURL=new.css.map */
