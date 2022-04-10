@@ -32,7 +32,7 @@ cta.addEventListener('click',()=>{
             message.innerHTML = msgDisplay[0]
             animation.goToAndPlay(0, true);
             lottie.classList.toggle(`hide`);
-        } else if(x>49 && x<70){message.innerHTML 
+        } else if(x>49 && x<=70){message.innerHTML 
             = msgDisplay[1]} 
             else{ message.innerHTML = msgDisplay[2];}
     } else{
